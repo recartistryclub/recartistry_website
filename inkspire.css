@@ -1,0 +1,110 @@
+#navhead1{
+    color:black;
+    font-weight: bold;
+}
+.top-nav-icon{
+    height:80px;
+    width: 80px;
+  margin-left: 0;
+}
+.navbar-toggler {
+    border-color: black !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    
+}
+
+.nav-position {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000;
+    margin: 0; 
+    padding: 0; 
+    margin-top: 30px;
+    background-color:transparent !important;
+}
+.container, .container-fluid {
+    padding-left: 0; 
+    padding-right: 0; 
+    padding: 0;
+}
+
+.nav-border{
+    border-width: 1.7px;
+    border-style: solid;
+    border-color: rgb(64, 56, 56);
+    border-radius: 10px;
+}
+
+#navhead1:hover {
+  border-bottom: 2px solid black; 
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  #navhead1:hover {
+      border-bottom: 2px solid black;
+      width: fit-content; 
+  }
+}
+.ink-bg{
+    background-image: url("/Users/madhavaganesh/Desktop/rec/rec artistry/top/Rules.png");
+
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+@media (min-width: 768px) {
+    .responsive-image {
+        width: 60%; /* Adjust width for laptops */
+    }
+}
+
+@media (min-width: 1024px) {
+    .responsive-image {
+        width: 40%; /* Adjust width for larger screens */
+    }
+}
+.sub-btn {
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around text */
+    background-color: #9cd0e5; /* Sky blue background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.sub-btn:hover {
+    background-color: #00BFFF; /* Brighter sky blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.sub-btn:active {
+    transform: translateY(1px); /* Slight dip on click */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Reset shadow */
+}
+
+.sub-btn:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 0 3px rgba(135, 206, 235, 0.5); /* Highlight on focus */
+}
+
+
