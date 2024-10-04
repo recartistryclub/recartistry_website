@@ -52,7 +52,7 @@
   }
 }
 .ink-bg{
-    background-image: url("/Users/madhavaganesh/Desktop/rec/rec artistry/top/Rules.png");
+    background-image: url("./top/Rules.png");
 
     width: 100vw;
     background-size: cover;
